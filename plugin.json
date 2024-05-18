@@ -5,7 +5,7 @@
     "author": "Ihr Name",
     "license": "MIT",
     "description": "Integrates Omniletter with plentymarkets.",
-    "pluginType": "api",
+    "pluginType": "backend",
     "require": {
         "plenty/api": "^1.0"
     }
