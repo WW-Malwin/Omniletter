@@ -1,0 +1,16 @@
+{
+  "settings": {
+    "api_key": {
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "position": 1
+    },
+    "api_url": {
+      "type": "string",
+      "defaultValue": "https://api.omniletter.com",
+      "required": true,
+      "position": 2
+    }
+  }
+}

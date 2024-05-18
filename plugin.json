@@ -1,0 +1,34 @@
+{
+  "name": "OmniletterIntegration",
+  "description": "Integration von Omniletter in Plentymarkets",
+  "author": "Dein Name",
+  "version": "1.0.0",
+  "pluginIcon": "icon.png",
+  "categories": ["email", "newsletter"],
+  "namespace": "Omniletter",
+  "controllers": [
+    "Omniletter\\Controllers\\OmniletterController"
+  ],
+  "routes": [
+    {
+      "route": "/plugin/omniletter/subscribe",
+      "method": "post",
+      "controller": "Omniletter\\Controllers\\OmniletterController@subscribe"
+    },
+    {
+      "route": "/plugin/omniletter/unsubscribe",
+      "method": "post",
+      "controller": "Omniletter\\Controllers\\OmniletterController@unsubscribe"
+    },
+    {
+      "route": "/plugin/omniletter/subscribers",
+      "method": "get",
+      "controller": "Omniletter\\Controllers\\OmniletterController@getSubscribers"
+    },
+    {
+      "route": "/plugin/omniletter/sendNewsletter",
+      "method": "post",
+      "controller": "Omniletter\\Controllers\\OmniletterController@sendNewsletter"
+    }
+  ]
+}
