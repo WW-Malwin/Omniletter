@@ -1,0 +1,15 @@
+{
+    "name": "vendor/omniletter-integration",
+    "description": "Integrates Omniletter with plentymarkets.",
+    "type": "plenty-plugin",
+    "license": "MIT",
+    "require": {
+        "plenty/api": "^1.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omniletter\\\\Integration\\\\": "src/"
+        }
+    }
+}
