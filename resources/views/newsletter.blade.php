@@ -1,15 +1,15 @@
-@extends("OmniletterIntegration::layout")
+@extends('OmniletterIntegration::layout')
 
-@section("content")
+@section('content')
 <div class="card">
     <div class="card-header">
         Send Newsletter
     </div>
     <div class="card-body">
-        @if(session("success"))
-            <div class="alert alert-success">{{ session("success") }}</div>
+        @if(session('success'))
+            <div class="alert alert-success">{{ session('success') }}</div>
         @endif
-        <form action="{{ route("omniletter.send.newsletter") }}" method="POST">
+        <form action="{{ route('omniletter.send.newsletter') }}" method="POST">
             @csrf
             <div class="form-group">
                 <label for="subject">Subject</label>

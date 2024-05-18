@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Omniletter\\\\Integration\\\\": "src/"
+            "Omniletter\\Integration\\": "src/"
         }
     }
 }

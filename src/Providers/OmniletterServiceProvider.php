@@ -1,9 +1,9 @@
 <?php
 
-namespace Omniletter\\\\Integration\\\\Providers;
+namespace Omniletter\Integration\Providers;
 
-use Plenty\\\\Plugin\\\\ServiceProvider;
-use Plenty\\\\Plugin\\\\Events\\\\Dispatcher;
+use Plenty\Plugin\ServiceProvider;
+use Plenty\Plugin\Events\Dispatcher;
 
 class OmniletterServiceProvider extends ServiceProvider
 {

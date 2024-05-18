@@ -1,6 +1,6 @@
 {
     "name": "OmniletterIntegration",
-    "namespace": "Omniletter\\\\Integration",
+    "namespace": "Omniletter\\Integration",
     "version": "1.0.0",
     "author": "Ihr Name",
     "license": "MIT",
